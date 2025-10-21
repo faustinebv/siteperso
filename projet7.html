@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet 7 – Portfolio Faustine</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .section-images {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .projet-image,
+        .projet-video {
+            width: 400px;
+            height: auto;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>La Provence</h1>
+        <nav>
+            <a href="accueil.html">Accueil</a>
+            <a href="apropos.html">À propos</a>
+            <a href="monunivers.html">Mon univers</a>
+            <a href="galerie.html">Galerie</a>
+        </nav>
+    </header>
+
+    <main class="page-projet">
+        <div class="section-images">
+            <img src="images/trompeloeil.jpg" alt="Projet 7" class="projet-image">
+            <video class="projet-video" autoplay muted loop playsinline>
+                <source src="images/trompeloeil_video.mov" type="video/mp4">
+        </div>
+        <section class="projet-description">
+            <h2>La Provence</h2>
+            <p>
+                J’ai peint cette fresque murale sur le mur d’un abri de jacuzzi, situé dans le sud-est de la France.
+                À la demande des propriétaires, j’ai représenté un champ de lavande accompagné d’un petit cabanon, en
+                lien avec l’environnement local et l’ambiance provençale du lieu.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 – Portfolio de Faustine Michaut</p>
+    </footer>
+</body>
+
+</html>
